@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { AppExtensionSDK } from '@contentful/app-sdk';
-import { Heading, Form, Workbench, Paragraph } from '@contentful/forma-36-react-components';
-import { css } from 'emotion';
+import React, { Component } from "react";
+import { AppExtensionSDK } from "@contentful/app-sdk";
+import { Heading, Form, Workbench, Paragraph } from "@contentful/forma-36-react-components";
+import { css } from "emotion";
 
 export interface AppInstallationParameters {}
 
@@ -56,10 +56,10 @@ export default class Config extends Component<ConfigProps, ConfigState> {
 
   render() {
     return (
-      <Workbench className={css({ margin: '80px' })}>
+      <Workbench className={css({ margin: "80px" })}>
         <Form>
-          <Heading>App Config</Heading>
-          <Paragraph>Welcome to your contentful app. This is your config page.</Paragraph>
+          <Heading>Blog Post Metrics Configuration</Heading>
+          <Paragraph>Pew pew!</Paragraph>
         </Form>
       </Workbench>
     );
