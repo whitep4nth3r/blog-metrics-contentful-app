@@ -59,7 +59,10 @@ export default class Config extends Component<ConfigProps, ConfigState> {
       <Workbench className={css({ margin: "80px" })}>
         <Form>
           <Heading>Blog Post Metrics Configuration</Heading>
-          <Paragraph>Pew pew!</Paragraph>
+          <Paragraph>
+            Get word count and reading time for a blog post in Contentful that uses a Rich Text
+            field.
+          </Paragraph>
         </Form>
       </Workbench>
     );
